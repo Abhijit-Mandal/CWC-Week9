@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class Q1 {
 
@@ -8,6 +7,9 @@ public class Q1 {
 		System.out.println("Enter the size of the array: ");
 		int N=sc.nextInt();
 		int[] a = new int[N]; 
+		for(int i=0;i<N;i++) {
+			a[i]=sc.nextInt();
+		}
 		System.out.println("Enter the sum: ");
 		int sum=sc.nextInt();
 		
