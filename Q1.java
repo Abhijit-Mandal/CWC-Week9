@@ -7,6 +7,7 @@ public class Q1 {
 		System.out.println("Enter the size of the array: ");
 		int N=sc.nextInt();
 		int[] a = new int[N]; 
+		System.out.println("Enter the numbers: ");
 		for(int i=0;i<N;i++) {
 			a[i]=sc.nextInt();
 		}
